@@ -1,0 +1,13 @@
+<h2>Excercise Manager:</h2>
+<div class="container">
+    <div class="row">
+        <label class="l">What is your New Excercise :</label><input type="text" [(ngModel)]="ne" class="form-control">
+    </div>
+    <div class="row">
+        <label class="l">Enter The Date:</label><input type="text" [(ngModel)]="dat" class="form-control">
+    </div>
+    <div class="row">
+        <label>Enter details :</label><input type="text" [(ngModel)]="detail" class="form-control">
+    </div>
+</div><br>
+<button (click)="add_exercise()" class="btn btn-primary">ADD Excercise</button>

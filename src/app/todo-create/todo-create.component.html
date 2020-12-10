@@ -1,0 +1,22 @@
+<h2>Add Your Diet !</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <label>Calorie consumed:</label><input type="text" [(ngModel)]="id" class="form-control">
+        </div>
+        <div class="col-lg-6">
+            <label>Enter Date:</label><input type="text" [(ngModel)]="date" class="form-control">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <label>Your Height:</label><input type="text" [(ngModel)]="title" class="form-control">
+        </div>
+        <div class="col-lg-6">
+            <label>your weight:</label><input type="text" [(ngModel)]="desc" class="form-control">
+        </div>
+    </div>
+    
+</div><br>
+<button (click)="additem()">Add Diet</button>
+<br>

@@ -1,0 +1,25 @@
+
+button{
+    width:25%;
+    padding: 0.5%;
+    margin-left: 34%;
+    background-color:green;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    background-color: #b088f9;
+    padding: 0.75%;
+}
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  background-color: #96d3ec!important;
+  border-color: #96d3ec;
+  color: rgb(0, 0, 0);
+}
+.form-control{
+    background-color: rgb(248, 221, 185);
+}

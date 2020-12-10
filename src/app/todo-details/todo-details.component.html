@@ -1,0 +1,35 @@
+<h2>Details of Excercises and Diets:</h2>
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-lg-6 table-responsive">
+            <table border="1" class="table">
+                <tr>
+                    <th>Calories</th>
+                    <th>Date</th>
+                    <th>Height</th>
+                    <th>Weight</th>
+                </tr>
+                <tr *ngFor="let A of tododetails">
+                    <td>{{A.id}}</td>
+                    <td>{{A.date}}</td>
+                    <td>{{A.title}}</td>
+                    <td>{{A.des}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-lg-6  table-responsive" >
+            <table border="1" class="table">
+                <tr>
+                    <th>Exercise</th>
+                    <th>Date</th>
+                    <th>DESCRIPTION</th>
+                </tr>
+                <tr *ngFor="let A of manager">
+                    <td>{{A.ne}}</td>
+                    <td>{{A.dat}}</td>
+                    <td>{{A.detail}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

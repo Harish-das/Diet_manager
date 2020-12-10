@@ -1,0 +1,16 @@
+
+
+table{
+    background-color: rgb(255, 0, 0);
+}
+th{
+    background-color: rgb(152, 255, 255);
+}
+td{
+    background-color: rgb(136, 255, 156);
+}
+h2{
+    text-align: center;
+    background-color:#b088f9;
+    padding: 0.75%;
+}
